@@ -2,7 +2,7 @@ name: clj-lib Tests
 
 on: push
 
-jobs:
+  jobs:
   unit-test:
     runs-on: ubuntu-latest
     container:
